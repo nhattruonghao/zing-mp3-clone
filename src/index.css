@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@layer components {
+  .icon-menu {
+    @apply w-7 h-7 mr-2
+  }
+  .title-player-control{
+    @apply text-player-text font-medium text-sm
+  }
+  .IconPlayer {
+   @apply w-7 h-7 text-player-text cursor-pointer
+  }
+  .timeProgress {
+    @apply text-text-secondary font-medium text-sm
+  }
+  .iconPlayerSecondary {
+    @apply w-5 h-5 text-player-text cursor-pointer
+  }
+  .iconHeader {
+    @apply text-text-secondary w-6 h-6 cursor-pointer
+  }
+  .cutForControl {
+    height: calc(100vh - theme('spacing.24'));
+  }
+  .iconItem {
+    @apply text-text-secondary w-4 h-4 cursor-pointer
+  }
+  .text-stroke-1{
+    color: rgba(0,0,0,0);
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4a90e2;
+  }
+  .text-stroke-2{
+    color: rgba(0,0,0,0);
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #50e3c2;
+  }
+  .text-stroke-3{
+    color: rgba(0,0,0,0);
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e35050;
+  }
+  .text-stroke-4{
+    color: rgba(0,0,0,0);
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    opacity: 0.7;
+  }
+  }
